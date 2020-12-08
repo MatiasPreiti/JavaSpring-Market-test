@@ -9,5 +9,7 @@ import java.util.Optional;
 
 public interface CompraCrudRepository extends CrudRepository<Compra, Integer> {
 
-        Optional<List<Compra>> findByIdCliente(String idCliente);
+    static Optional<List<Compra>> findByIdCliente(String idCliente) {
+        return null;
+    }
 }
