@@ -12,7 +12,7 @@ public interface PurchaseItemMapper {
 
     @Mappings({
             @Mapping(source = "id.idProducto", target = "productId"),
-            @Mapping(source = "cantidad", target = "quatity"),
+            @Mapping(source = "cantidad", target = "quantity"),
             @Mapping(source = "estado", target = "active")
     })
 
@@ -22,7 +22,7 @@ public interface PurchaseItemMapper {
     @Mappings({
             @Mapping(target = "compra", ignore = true),
             @Mapping(target = "producto", ignore = true),
-            @Mapping(target = "id.Compra", ignore = true)
+            @Mapping(target = "id.idCompra", ignore = true)
     })
 
     ComprasProducto toComprasProducto(PurchaseItem item);
