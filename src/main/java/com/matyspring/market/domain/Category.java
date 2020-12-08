@@ -6,11 +6,11 @@ public class Category {
     private String category;
     private boolean active;
 
-    public int getCatregoryId() {
+    public int getCategoryId() {
         return categoryId;
     }
 
-    public void setCatregoryId(int catregoryId) {
+    public void setCategoryId(int catregoryId) {
         this.categoryId = catregoryId;
     }
 
