@@ -14,6 +14,6 @@ public class MatyUserDetailsService implements UserDetailsService {
 
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
-        return new User('User123', '{noop}pass', new ArrayList<>());
+        return new User("User123", "{noop}pass", new ArrayList<>());
     }
 }
